@@ -6,7 +6,7 @@
    using System.Web.Optimization;
    using System.Web.Routing;
 
-   public class Global : HttpApplication
+   public class Global: HttpApplication
    {
       protected void Application_Start(object sender, EventArgs e)
       {
