@@ -4,6 +4,7 @@
    ViewBag.Title = "Art of Life | Dublin 2014";
    ViewBag.Description = "";
    ViewBag.Keywords = "";
+   string googleAnalyticsKey = Config.Google.Analytics.Key;
 }
 
 <body class="theme font-primary font-normal semibold-link-decoration no-visited-decoration underline-hover-decoration">
@@ -14,7 +15,7 @@
          }, i[r].l = 1 * new Date(); a = s.createElement(o),
             m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-      ga('create', @ViewBag.GoogleAnalyticsKey, 'auto');
+      ga('create', @googleAnalyticsKey, 'auto');
       ga('send', 'pageview');
    </script>
 
