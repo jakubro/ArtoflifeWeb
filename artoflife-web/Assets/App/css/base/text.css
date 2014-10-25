@@ -1,0 +1,13 @@
+﻿/* -------------------------------- 
+
+Text adjustments
+
+-------------------------------- */
+
+.text-center { text-align: center; }
+
+.text-justify { text-align: justify; }
+
+.text-uppercase { text-transform: uppercase; }
+
+.text-lowercase { text-transform: lowercase; }

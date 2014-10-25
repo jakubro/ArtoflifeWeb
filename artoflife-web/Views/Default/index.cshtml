@@ -1,0 +1,57 @@
+﻿@using System.Web.Optimization
+@{
+   ViewBag.Language = "en";
+   ViewBag.Title = "Art of Life | Dublin 2014";
+   ViewBag.Description = "";
+   ViewBag.Keywords = "";
+}
+
+<body class="theme font-primary font-normal semibold-link-decoration no-visited-decoration underline-hover-decoration">
+   <script>
+      (function (i, s, o, g, r, a, m) {
+         i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+         }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', @ViewBag.GoogleAnalyticsKey, 'auto');
+      ga('send', 'pageview');
+   </script>
+
+   @RenderPage("~/Views/Shared/Header.cshtml")
+   <div class="wrapper">
+      <div class="stack-960">
+         <section id="the-story" class="slice clearfix">
+            @RenderPage("~/Views/Section/Marek.cshtml")
+         </section><!--/#the-story-->
+         <section id="program" class="slice clearfix">
+            @RenderPage("~/Views/Section/Program.cshtml")
+         </section><!--/#program-->
+      </div><!--/.stack-960-->
+
+      <section id="where" class="clearfix">
+         @RenderPage("~/Views/Section/Where.cshtml")
+      </section><!--/#where-->
+
+      <div class="stack-960">
+         <section id="the-story" class="slice clearfix">
+            @RenderPage("~/Views/Section/Daniel.cshtml")
+         </section><!--/#the-story-->
+         <section id="the-story" class="slice clearfix">
+            @RenderPage("~/Views/Section/Shaun.cshtml")
+         </section><!--/#the-story-->
+         <section id="take-part" class="slice clearfix">
+            @RenderPage("~/Views/Section/TakePart.cshtml")
+         </section><!--/#take-part-->
+      </div><!--/.stack-960-->
+   </div><!--/.wrapper-->
+   @RenderPage("~/Views/Shared/Footer.cshtml")
+
+   <script type="text/javascript">
+      window.artOfLife = {};
+   </script>
+   @Scripts.Render("~/bundles/jquery")
+   @Scripts.Render("~/bundles/skrollr")
+   @Scripts.Render("~/bundles/application")
+
+</body>

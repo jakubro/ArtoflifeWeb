@@ -1,0 +1,38 @@
+﻿/* -------------------------------- 
+
+Main theme
+
+-------------------------------- */
+
+.theme {
+   background-color: #fff;
+
+   font-size: 16px;
+   letter-spacing: 0.013em;
+
+   line-height: 1.45;
+   word-spacing: 0.13em;
+}
+
+.theme a,
+.no-visited-decoration .theme a:visited { color: #303e49; }
+
+/* -------------------------------- 
+
+Background theme
+
+-------------------------------- */
+
+.background-theme {
+   background-color: #23560d;
+   color: #fff;
+
+   font-size: 24px;
+   letter-spacing: -0.03em;
+
+   line-height: inherit;
+   word-spacing: inherit;
+}
+
+.background-theme a,
+.no-visited-decoration .background-theme a:visited { color: #fff; }

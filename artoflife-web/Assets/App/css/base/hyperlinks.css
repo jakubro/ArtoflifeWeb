@@ -1,0 +1,17 @@
+﻿/* -------------------------------- 
+
+Hyperlinks
+
+-------------------------------- */
+
+.semibold-link-decoration a { font-weight: 600; }
+
+.clear-link-decoration a { font-weight: inherit; }
+
+.no-visited-decoration a:visited { text-decoration: none; }
+
+.underline-hover-decoration a { text-decoration: inherit; }
+
+.underline-hover-decoration a:hover { text-decoration: underline; }
+
+.no-hover-decoration a:hover { text-decoration: none; }

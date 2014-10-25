@@ -1,0 +1,22 @@
+﻿@import url(//fonts.googleapis.com/css?family=Lato:300,400|Lobster|Raleway:300,400,600);
+
+/* -------------------------------- 
+
+Font faces
+
+-------------------------------- */
+
+.font-primary {
+   font-family: 'Lato', sans-serif;
+   font-style: normal
+}
+
+.font-secondary {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+}
+
+.font-ternary {
+   font-family: 'Lobster', cursive;
+   font-style: normal;
+}
