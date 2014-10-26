@@ -1,6 +1,5 @@
 ﻿namespace Internetz.Artoflife.Web
-{
-   using System.Linq;
+{ // ReSharper disable ClassNeverInstantiated.Global
    using System.Web.Optimization;
 
    public class BundleConfig

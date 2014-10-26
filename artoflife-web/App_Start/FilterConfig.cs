@@ -1,5 +1,5 @@
 ﻿namespace Internetz.Artoflife.Web
-{
+{ // ReSharper disable ClassNeverInstantiated.Global
    using System.Web.Mvc;
 
    public class FilterConfig
