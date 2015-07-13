@@ -1,13 +1,13 @@
-﻿namespace Internetz.Artoflife.Web.Controllers
+﻿namespace ArtOfLife.Web.Controllers
 {
-   using System.Web.Mvc;
+    using System.Web.Mvc;
 
-   public class DefaultController: Controller
-   {
-      // GET: Default
-      public ActionResult Index()
-      {
-         return View();
-      }
-   }
+    public class DefaultController : Controller
+    {
+        // GET: Default
+        public ActionResult Index()
+        {
+            return View();
+        }
+    }
 }

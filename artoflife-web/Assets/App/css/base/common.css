@@ -1,16 +1,10 @@
-﻿/* -------------------------------- 
-
-Common
-
--------------------------------- */
-
-.clearfix:before {
-   content: "";
-   display: table;
+﻿.clearfix:before {
+    content: "";
+    display: table;
 }
 
 .clearfix:after {
-   clear: both;
-   content: "";
-   display: table;
+    clear: both;
+    content: "";
+    display: table;
 }

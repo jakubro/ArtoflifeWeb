@@ -5,33 +5,25 @@ Primary style
 -------------------------------- */
 
 html * {
-   -moz-osx-font-smoothing: grayscale;
-   -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 *,
 *:after,
 *:before {
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body {
-   padding: 0;
-}
+body { padding: 0; }
 
-img {
-   max-width: 100%;
-}
+img { max-width: 100%; }
 
-div.wrapper {
-   padding: 50px 0;
-}
+div.wrapper { padding: 50px 0; }
 
-   div.wrapper p {
-      margin: 0 0 25px;
-   }
+div.wrapper p { margin: 0 0 25px; }
 
 /* -------------------------------- 
 
@@ -40,13 +32,11 @@ Page navigation
 -------------------------------- */
 
 .pagenav {
-   line-height: 1em;
-   margin: 0 0.3em;
+    line-height: 1em;
+    margin: 0 0.3em;
 }
 
-   .pagenav li {
-      padding: 0 0.3em;
-   }
+.pagenav li { padding: 0 0.3em; }
 
 /* -------------------------------- 
 
@@ -54,34 +44,30 @@ Header
 
 -------------------------------- */
 
-.site-header {
-   padding: 1em 0 2em;
+.site-header { padding: 1em 0 2em; }
+
+.site-header hgroup { padding: 1em 0 3em; }
+
+.site-header h1 {
+    font-size: 46px;
+    letter-spacing: 0.03em;
+    line-height: 1.4em;
+    word-spacing: -0.08em;
 }
 
-   .site-header hgroup {
-      padding: 1em 0 3em;
-   }
+.site-header h2 {
+    font-size: 34px;
+    letter-spacing: -0.03em;
+    line-height: 1em;
+    word-spacing: 0.21em;
+}
 
-   .site-header h1 {
-      font-size: 46px;
-      letter-spacing: 0.03em;
-      line-height: 1.4em;
-      word-spacing: -0.08em;
-   }
-
-   .site-header h2 {
-      font-size: 34px;
-      letter-spacing: -0.03em;
-      line-height: 1em;
-      word-spacing: 0.21em;
-   }
-
-   .site-header h3 {
-      font-size: 23px;
-      letter-spacing: -0.05em;
-      line-height: 1em;
-      word-spacing: -0.03em;
-   }
+.site-header h3 {
+    font-size: 23px;
+    letter-spacing: -0.05em;
+    line-height: 1em;
+    word-spacing: -0.03em;
+}
 
 /* -------------------------------- 
 
@@ -89,29 +75,25 @@ Footer
 
 -------------------------------- */
 
-.site-footer nav {
-   padding: 1.2em 0 0 0;
-}
+.site-footer nav { padding: 1.2em 0 0 0; }
 
 .site-footer .sharebox {
-   width: auto;
-   height: auto;
-   padding: 0;
+    height: auto;
+    padding: 0;
+    width: auto;
 }
 
-.site-footer hgroup {
-   margin: 0.2em 0 0 0;
-}
+.site-footer hgroup { margin: 0.2em 0 0 0; }
 
 .site-footer p {
-   font-size: 16px;
-   padding: 0 0 3em;
+    font-size: 16px;
+    padding: 0 0 3em;
 }
 
 .site-footer .credits {
-   font-size: 14px;
-   line-height: 1em;
-   padding: 2.5em 0 0.3em;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 2.5em 0 0.3em;
 }
 
 /* -------------------------------- 
@@ -121,14 +103,14 @@ Slice
 -------------------------------- */
 
 .slice {
-   margin: 0 0 20px;
-   padding: 3%;
+    margin: 0 0 20px;
+    padding: 3%;
 }
 
-   .slice header,
-   #where header {
-      font-size: 28px;
-      letter-spacing: -0.03em;
-      line-height: 2.8;
-      word-spacing: 0.16em;
-   }
+.slice header,
+#where header {
+    font-size: 28px;
+    letter-spacing: -0.03em;
+    line-height: 2.8;
+    word-spacing: 0.16em;
+}

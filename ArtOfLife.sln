@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "artoflife-web", "artoflife-web\artoflife-web.csproj", "{FCFD8240-4A3A-4C3A-9AE3-4908792124F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtOfLife.Web", "artoflife-web\ArtOfLife.Web.csproj", "{FCFD8240-4A3A-4C3A-9AE3-4908792124F7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{725AE94B-A48A-4551-A987-E5934581DAFF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5B4D8003-A1BC-40B9-B058-2124F60BA8C8}"
 	ProjectSection(SolutionItems) = preProject
-		.nuget\packages.config = .nuget\packages.config
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Global

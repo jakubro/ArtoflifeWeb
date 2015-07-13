@@ -5,13 +5,13 @@ Main theme
 -------------------------------- */
 
 .theme {
-   background-color: #fff;
+    background-color: #fff;
 
-   font-size: 16px;
-   letter-spacing: 0.013em;
+    font-size: 16px;
+    letter-spacing: 0.013em;
 
-   line-height: 1.45;
-   word-spacing: 0.13em;
+    line-height: 1.45;
+    word-spacing: 0.13em;
 }
 
 .theme a,
@@ -24,14 +24,14 @@ Background theme
 -------------------------------- */
 
 .background-theme {
-   background-color: #23560d;
-   color: #fff;
+    background-color: #23560d;
+    color: #fff;
 
-   font-size: 24px;
-   letter-spacing: -0.03em;
+    font-size: 24px;
+    letter-spacing: -0.03em;
 
-   line-height: inherit;
-   word-spacing: inherit;
+    line-height: inherit;
+    word-spacing: inherit;
 }
 
 .background-theme a,

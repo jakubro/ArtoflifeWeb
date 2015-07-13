@@ -1,19 +1,20 @@
-﻿@{
-   string googleApiKey = Config.Google.Api.Key;
+﻿@using ArtOfLife.Web
+@{
+    var googleApiKey = "AIzaSyDASdDu1SyY9VA9MNEoEtYvFiVUH2UZpNQ";
 }
 
 <header class="text-center text-uppercase font-secondary">
-   Where
+    Where
 </header>
 <div class="text-center">
-   <p>
-      Baxter and Greene<br />
-      Block 4, Harcourt Centre<br />
-      Harcourt Rd, Dublin 2
-   </p>
+    <p>
+        Baxter and Greene<br/>
+        Block 4, Harcourt Centre<br/>
+        Harcourt Rd, Dublin 2
+    </p>
 </div>
 <div id="eventlocationmap" class="map-wrapper">
-   <div id="map-canvas" class="map"></div>
+    <div id="map-canvas" class="map"></div>
 </div>
 
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=@googleApiKey&language=en&region=IE"></script>

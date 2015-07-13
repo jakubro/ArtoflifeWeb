@@ -1,10 +1,4 @@
-﻿/* -------------------------------- 
-
-Hyperlinks
-
--------------------------------- */
-
-.semibold-link-decoration a { font-weight: 600; }
+﻿.semibold-link-decoration a { font-weight: 600; }
 
 .clear-link-decoration a { font-weight: inherit; }
 
